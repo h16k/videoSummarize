@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoSummarize</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Video Summarizer</h1>
+    <div class="video-wrap">
+        <div class="video-btn" id="video-btn"></div>
+            <video width="600px" id="video" height="400px" muted controls  src="videos/video_original.mp4" type="video/mp4">
+            </video>
+    </div>
+    <img class="videoControlBtn" src="icon/original.svg" alt="" onclick="changeVideo('original');">
+    <img class="videoControlBtn" src="icon/fast.svg" alt="" onclick="changeVideo('fast');">
+    <!-- <img class="videoControlBtn" src="icon/veryfast.svg" alt="" onclick="changeVideo('veryfast');"> -->
+
+    <script src="index.js"></script>
+    
+</body>
+
+</html>
